@@ -1,12 +1,12 @@
 {
   "private": true,
   "name": "MyPortfolio",
-  "homepage": "https://deepali04.github.io/masterPortfolio-master",
+  "homepage": "https://deepali04.github.io/MyPortfolio",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"
