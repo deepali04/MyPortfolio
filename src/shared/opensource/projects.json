@@ -3,6 +3,7 @@
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "All Football",
+      "image": "goalGlobe.jpeg",
       "createdAt": "2020-03-06T16:26:54Z",
       "url": "https://github.com/deepali04/AllFootball",
       "description": "All football is a European football live score website provides real-time updates on all the latest football matches and scores across the continent. Skills used are ",
@@ -28,6 +29,7 @@
     },
     {
       "id": "R_kgDOG_vYHA",
+      "image": "goalGlobe.jpeg",
       "name": "YASMP: Yet Another Social Media Platform",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/deepali04/Yet-Another-Social-Media-Platform",
@@ -55,6 +57,7 @@
     {
       "id": "R_kgDOG_vYHA",
       "name": "Trivia Plus",
+      "image": "goalGlobe.jpeg",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/deepali04/Yet-Another-Social-Media-Platform",
       "description": "This platform has been meticulously crafted to provide users with an engaging and intellectually stimulating experience. Whether you're a quiz enthusiast or just looking for a unique way to challenge yourself, our trivia website offers a diverse range of categories and features that cater to all levels of curiosity. From a user-friendly landing page to dynamic quiz gameplay with timed questions and helpful hints, our platform aims to create an immersive and enjoyable environment. ",
@@ -80,6 +83,7 @@
     },
     {
       "id": "R_kgDOG_vYHA",
+      "image": "goalGlobe.jpeg",
       "name": "Trivia Plus",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/deepali04/Yet-Another-Social-Media-Platform",
@@ -106,7 +110,8 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "Trivia Plus",
+      "name": "Efficient Search",
+      "image": "goalGlobe.jpeg",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/deepali04/Yet-Another-Social-Media-Platform",
       "description": "This platform has been meticulously crafted to provide users with an engaging and intellectually stimulating experience. Whether you're a quiz enthusiast or just looking for a unique way to challenge yourself, our trivia website offers a diverse range of categories and features that cater to all levels of curiosity. From a user-friendly landing page to dynamic quiz gameplay with timed questions and helpful hints, our platform aims to create an immersive and enjoyable environment. ",
@@ -133,6 +138,7 @@
     {
       "id": "R_kgDOG_vYHA",
       "name": "AURA: Australian Rainfall Prediction ",
+      "image": "goalGlobe.jpeg",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/deepali04/AustralianRainfallPrediction",
       "description": "The project enables us to predict whether or not a location in Australia will experience rain tomorrow using the weather observation data. Given a set of features, we want to predict the target variable RainTomorrow as, 1 which shows either it will rain the next day or 0 which shows it will not rain the next day.",
