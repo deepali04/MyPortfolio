@@ -8,7 +8,11 @@ class Experiences extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="main" id="education">
+      <div
+        className="main"
+        id="education"
+        style={{ marginTop: "0.25rem", marginLeft: "0.4rem" }}
+      >
         <div className="education-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="educations-header" style={{ color: theme.text }}>
