@@ -276,7 +276,7 @@ const companies = {
         "⚡ Responsible for designing and delivering a scalable distributed system for various microservices with a team of 6 people. Tasked with gathering requirements, presenting architecture solutions, planning and delivery of products and code review.",
         "⚡ Revamped a major reporting module by updating backend REST API built with Java Spring Boot and designing and developing frontend components using Angular. Provided SEO solutions to single page web application. ",
         "⚡ Coordinated all aspects of software development lifecycle, building and testing java code and performed quality assurance testing. ",
-        "Worked on payment module to re-architecture and migrate a monolith module to microservices using java spring boot framework along with JDBC, hibernate and integrated Restful API’s, external web services ensuring high performance on mobile and desktop.",
+        "⚡ Worked on payment module to re-architecture and migrate a monolith module to microservices using java spring boot framework along with JDBC, hibernate and integrated Restful API’s, external web services ensuring high performance on mobile and desktop.",
         "⚡ Skills Used: Java, SpringBoot, Grafana, Apache Kafka, Shell Script, AWS, SAP Hybris, IBM Sterling, Relational Databases, MYSQL, Python",
       ],
       color: "#fc1f20",
