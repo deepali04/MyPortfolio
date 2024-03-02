@@ -20,6 +20,7 @@ export default function GithubRepoCard({ repo, theme }) {
         <img
           src={require(`../../assests/images/${repo.image}`)}
           alt={repo.name}
+          style={{ width: "350px", height: "200px", objectFit: "cover" }}
         />
         <div key={repo.id}>
           <div className="repo-name-div">
