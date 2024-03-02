@@ -43,13 +43,24 @@
   align-items: flex-start;
   width: 80%;
 }
-
+.my-animation-class {
+  animation-fill-mode: both;
+  backface-visibility: visible;
+  animation-duration: 2000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-638542844173864-4;
+  width: 20%;
+  height: auto;
+  object-fit: contain;
+}
 .body-header-duration {
   width: 20%;
 }
 .duration {
   font-family: "Google Sans Regular";
-  font-size: 16px;
+  font-size: 17px;
   float: right;
 }
 

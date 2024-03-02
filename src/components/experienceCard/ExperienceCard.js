@@ -10,19 +10,17 @@ class ExperienceCard extends Component {
     return (
       <div className="degree-card">
         {company.logo_path && (
-          <Flip left duration={2000}>
-            <div className="card-img">
-              <img
-                style={{
-                  maxWidth: "100%",
-                  maxHeight: "100%",
-                  transform: "scale(0.9)",
-                }}
-                src={require(`../../assests/images/${company.logo_path}`)}
-                alt={company.company_url}
-              />
-            </div>
-          </Flip>
+          <div className="my-animation-class">
+            <img
+              style={{
+                maxWidth: "100%",
+                maxHeight: "100%",
+                transform: "scale(0.9)",
+              }}
+              src={require(`../../assests/images/${company.logo_path}`)}
+              alt={company.company_url}
+            />
+          </div>
         )}
         <Fade right duration={2000} distance="40px">
           <div
@@ -54,7 +52,8 @@ class ExperienceCard extends Component {
               {company.descriptions.map((sentence) => {
                 return (
                   <p className="content-list" style={{ color: theme.text }}>
-                    {sentence}
+                    {" "}
+                    {sentence}{" "}
                   </p>
                 );
               })}
@@ -69,7 +68,8 @@ class ExperienceCard extends Component {
                     style={{ backgroundColor: theme.headerColor }}
                   >
                     <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
+                      {" "}
+                      Visit Website{" "}
                     </p>
                   </div>
                 </a>
