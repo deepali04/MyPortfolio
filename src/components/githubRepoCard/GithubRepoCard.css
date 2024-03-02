@@ -1,6 +1,6 @@
 .repo-card-div {
   width: 250px; /* Adjust width as needed */
-  height: 400px; /* Adjust height as needed */
+  height: 450px; /* Adjust height as needed */
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -47,13 +47,9 @@
 }
 
 .repo-name-div {
+  margin-top: 0.9rem;
   display: flex;
   align-items: center;
-}
-
-.repo-svg {
-  margin-right: 0.5rem;
-  min-width: 16px;
 }
 
 .repo-name {
@@ -78,7 +74,7 @@
   text-align: left;
   display: -webkit-box;
   font-family: "Google Sans Regular";
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   margin-top: 0.8rem;
 }
@@ -117,7 +113,7 @@
   }
 
   .repo-description {
-    font-size: 14px;
+    font-size: 4px;
   }
 
   .repo-details {

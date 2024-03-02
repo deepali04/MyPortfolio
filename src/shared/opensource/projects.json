@@ -2,29 +2,29 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Goal Globe",
+      "name": "Goal Globe: European Football",
       "image": "goalGlobe.jpeg",
       "createdAt": "2020-03-06T16:26:54Z",
       "url": "https://github.com/deepali04/AllFootball",
-      "description": "Goal Globe is a European football live score website provides real-time updates on all the latest football matches and scores across the continent. Skills used are ",
+      "description": "Goal Globe is a European football live score website provides all the real-time updates on all the latest football matches and scores across the continent. You can also interact with people.",
       "isFork": false
     },
     {
       "id": "R_kgDOG_vYHA",
-      "image": "yasmp.png",
+      "image": "yasmp.jpeg",
       "name": "YASMP: Yet Another Social Media Platform",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/deepali04/Yet-Another-Social-Media-Platform",
-      "description": "YASMP is React based Instagram clone that lets users establish their profile and publish their content in many genres, allowing them to interact with a group of like-minded individuals and comment on their posts. It would also allow users to share other posts that they enjoy with their connections.",
+      "description": "YASMP is React based Instagram clone that lets users establish their profile and publish their content in many genres, allowing them to share posts and interact with a group of like-minded individuals.",
       "isFork": false
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "Efficient Search",
+      "name": "Efficient Search Engine",
       "image": "efficientSearch.jpeg",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/deepali04/Yet-Another-Social-Media-Platform",
-      "description": "This platform has been meticulously crafted to provide users with an engaging and intellectually stimulating experience. Whether you're a quiz enthusiast or just looking for a unique way to challenge yourself, our trivia website offers a diverse range of categories and features that cater to all levels of curiosity. From a user-friendly landing page to dynamic quiz gameplay with timed questions and helpful hints, our platform aims to create an immersive and enjoyable environment. ",
+      "description": "This project develops an efficient search engine designed to provide relevant search results. Leveraging advanced algorithms, it indexes web content meticulously, prioritizes high-quality information, and optimizes responses to user queries, offering an unparalleled browsing experience.",
       "isFork": false
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "Trivia Plus",
+      "name": "Automated Call Routing System",
       "image": "trivia.jpeg",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/deepali04/Yet-Another-Social-Media-Platform",
@@ -48,7 +48,7 @@
     {
       "id": "R_kgDOG_vYHA",
       "image": "trivia.jpeg",
-      "name": "Trivia Pulse",
+      "name": "Trivia Pulse: A Quiz website",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/deepali04/Yet-Another-Social-Media-Platform",
       "description": "This platform has been meticulously crafted to provide users with an engaging and intellectually stimulating experience. Whether you're a quiz enthusiast or just looking for a unique way to challenge yourself, our trivia website offers a diverse range of categories and features that cater to all levels of curiosity. From a user-friendly landing page to dynamic quiz gameplay with timed questions and helpful hints, our platform aims to create an immersive and enjoyable environment. ",
