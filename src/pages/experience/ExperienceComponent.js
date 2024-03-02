@@ -16,22 +16,7 @@ class Experience extends Component {
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
-              <div className="heading-img-div">
-                {/* <img
-									src={require("../../assests/images/education.svg")}
-									alt=""
-								/> */}
-                <ExperienceImg theme={theme} />
-              </div>
-              <div className="heading-text-div">
-                <h1 className="heading-text" style={{ color: theme.text }}>
-                  Experience
-                </h1>
-                <h3
-                  className="heading-sub-text"
-                  style={{ color: theme.text }}
-                ></h3>
-              </div>
+              <div className="heading-img-div"></div>
             </div>
           </Fade>
           <Experiences theme={this.props.theme} />

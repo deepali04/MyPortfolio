@@ -35,15 +35,18 @@ class ExperienceCard extends Component {
             >
               <div className="body-header-title">
                 <h2 className="card-title" style={{ color: theme.text }}>
-                  {company.title}
+                  {" "}
+                  {company.title}{" "}
                 </h2>
                 <h3 className="card-subtitle" style={{ color: theme.text }}>
-                  {company.subtitle}
+                  {" "}
+                  {company.subtitle}{" "}
                 </h3>
               </div>
               <div className="body-header-duration">
                 <h3 className="duration" style={{ color: theme.text }}>
-                  {company.duration}
+                  {" "}
+                  {company.duration}{" "}
                 </h3>
               </div>
             </div>

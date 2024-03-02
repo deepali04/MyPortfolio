@@ -12,7 +12,8 @@ class Experiences extends Component {
         <div className="education-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="educations-header" style={{ color: theme.text }}>
-              Professional Experience
+              {" "}
+              Professional Experience{" "}
             </h1>
           </Fade>
         </div>
