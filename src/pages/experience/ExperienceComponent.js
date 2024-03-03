@@ -5,11 +5,9 @@ import Experiences from "../../containers/experience/Experiences";
 import TopButton from "../../components/topButton/TopButton.js";
 import "./ExperienceComponent.css";
 import { Fade } from "react-reveal";
-import ExperienceImg from "./ExperienceImg.js";
 
 class Experience extends Component {
   render() {
-    const theme = this.props.theme;
     return (
       <div className="education-main">
         <Header theme={this.props.theme} />
