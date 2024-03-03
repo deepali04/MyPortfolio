@@ -1,6 +1,4 @@
 .repo-card-div {
-  width: 250px; /* Adjust width as needed */
-  height: 450px; /* Adjust height as needed */
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -113,7 +111,7 @@
   }
 
   .repo-description {
-    font-size: 4px;
+    font-size: 10px;
   }
 
   .repo-details {
