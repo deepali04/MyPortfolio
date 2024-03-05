@@ -7,6 +7,8 @@ import Button from "../../components/button/Button";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
+import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites.js";
+import { competitiveSites } from "../../portfolio";
 
 const ContactData = contactPageData.contactSection;
 
@@ -31,13 +33,15 @@ class Contact extends Component {
                   className="contact-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {ContactData["title"]}
+                  {" "}
+                  {ContactData["title"]}{" "}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {ContactData["description"]}
+                  {" "}
+                  {ContactData["description"]}{" "}
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
