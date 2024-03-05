@@ -418,50 +418,50 @@ const publicationsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publications = {
-  data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-  ],
-};
+// const publications = {
+//   data: [
+//     {
+//       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+//       name: "Artificial Intelligence Paper",
+//       createdAt: "2020-03-06T16:26:54Z",
+//       description: "Paper Written on Artificial Intelligence published in xyz ",
+//       url:
+//         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+//     },
+//     {
+//       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
+//       name: "Artificial Intelligence Paper",
+//       createdAt: "2020-03-06T16:26:54Z",
+//       description: "Paper Written on Artificial Intelligence published in xyz ",
+//       url:
+//         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+//     },
+//     {
+//       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
+//       name: "Artificial Intelligence Paper",
+//       createdAt: "2020-03-06T16:26:54Z",
+//       description: "Paper Written on Artificial Intelligence published in xyz ",
+//       url:
+//         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+//     },
+//     {
+//       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
+//       name: "Artificial Intelligence Paper",
+//       createdAt: "2020-03-06T16:26:54Z",
+//       description: "Paper Written on Artificial Intelligence published in xyz ",
+//       url:
+//         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+//     },
+//     {
+//       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+//       name: "Artificial Intelligence Paper",
+//       createdAt: "2020-03-06T16:26:54Z",
+//       description: "Paper Written on Artificial Intelligence published in xyz ",
+//       url:
+//         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+//     },
+//   ],
+// };
 
 // Contact Page
 const contactPageData = {
@@ -470,25 +470,6 @@ const contactPageData = {
     profile_image_path: "deepali_image.jpeg",
     description:
       "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Whether you have a question, a proposal, or just want to say hello, my inbox is open. I'll get back to you as soon as I can.",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.deepalinagwade.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
   phoneSection: {
     title: "",
@@ -507,8 +488,6 @@ export {
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
   contactPageData,
   companies,
 };

@@ -11,12 +11,9 @@ class DegreeCard extends Component {
       <div className="degree-card">
         {degree.logo_path && (
           <Flip left duration={2000}>
-            <div className="card-img">
+            <div className="my-animation-class">
               <img
-                style={{
-                  maxWidth: "100%",
-                  maxHeight: "100%",
-                }}
+                style={{ maxWidth: "100%", maxHeight: "100%" }}
                 src={require(`../../assests/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
               />
