@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./ExperienceCard.css";
-import { Fade } from "react-reveal";
+import { Fade, Flip } from "react-reveal";
 
 class ExperienceCard extends Component {
   render() {
@@ -10,17 +10,19 @@ class ExperienceCard extends Component {
     return (
       <div className="degree-card">
         {company.logo_path && (
-          <div className="my-animation-class">
-            <img
-              style={{
-                maxWidth: "100%",
-                maxHeight: "100%",
-                transform: "scale(0.9)",
-              }}
-              src={require(`../../assests/images/${company.logo_path}`)}
-              alt={company.company_url}
-            />
-          </div>
+          <Flip left duration={2000}>
+            <div className="my-animation-class">
+              <img
+                style={{
+                  maxWidth: "100%",
+                  maxHeight: "100%",
+                  transform: "scale(0.9)",
+                }}
+                src={require(`../../assests/images/${company.logo_path}`)}
+                alt={company.company_url}
+              />
+            </div>
+          </Flip>
         )}
         <Fade right duration={2000} distance="40px">
           <div
