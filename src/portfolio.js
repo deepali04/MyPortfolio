@@ -21,7 +21,7 @@ const greeting = {
   subTitle:
     "I am a passionate full-stack web developer based in New Jersey, wielding the power of React, Node.js, GraphQL, and APIs to transform ideas into reality. With four years of industry experience and the continuous learning journey of a master's student, I blend theoretical knowledge with practical skills to craft seamless, scalable, and engaging web solutions. Dive into my portfolio to explore how I navigate the complexities of web development to deliver projects that stand at the intersection of creativity and technology. Let's build the future, one line of code at a time.",
   resumeLink:
-    "https://drive.google.com/file/d/1hQE1fgwuFf-QAUfN59rLHcZs8QnbzbyZ/view?usp=sharing",
+    "https://github.com/deepali04/deepali04.github.io/blob/main/Deepali%20Nagwade.pdf",
   gitHubProfile: "https://github.com/deepali04/",
 };
 
@@ -287,6 +287,15 @@ const companies = {
 const certifications = {
   certifications: [
     {
+      title: "SQL Intermediate",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerranklogo.png",
+      certificate_link: "https://www.hackerrank.com/certificates/c81c1dba21e0",
+      alt_name: "GCP",
+      color_code: "#000000",
+    },
+
+    {
       title: "Fullstack Java Developer",
       subtitle: "- Udemy",
       logo_path: "udemylogo.png",
@@ -312,22 +321,24 @@ const certifications = {
       alt_name: "NPTEL",
       color_code: "#2A73CC",
     },
+    // {
+    //   title: "Data Structures",
+    //   subtitle: "- Coursera",
+    //   logo_path: "coursera_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/3R5NFZTMV8H4",
+    //   alt_name: "GCP",
+    //   color_code: "#2A73CC",
+    // },
+
     {
-      title: "Data Structures",
-      subtitle: "- Coursera",
-      logo_path: "coursera_logo.png",
+      title: "Introduction to Front-end Development",
+      subtitle: "- Meta",
+      logo_path: "meta-logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/3R5NFZTMV8H4",
-      alt_name: "GCP",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "SQL Intermediate",
-      subtitle: "- Hackerrank",
-      logo_path: "hackerranklogo.png",
-      certificate_link: "https://www.hackerrank.com/certificates/c81c1dba21e0",
-      alt_name: "GCP",
-      color_code: "#000000",
+        "https://www.coursera.org/account/accomplishments/certificate/SH7QY897FZZG",
+      alt_name: "META",
+      color_code: "#1877F2",
     },
 
     {
