@@ -7,7 +7,7 @@ const settings = {
 const seo = {
   title: "Deepali's Portfolio",
   description:
-    "I am a passionate full-stack web developer based in New Jersey, wielding the power of React, Node.js, GraphQL, and APIs to transform ideas into reality. With four years of industry experience and the continuous learning journey of a master's student, I blend theoretical knowledge with practical skills to craft seamless, scalable, and engaging web solutions. Dive into my portfolio to explore how I navigate the complexities of web development to deliver projects that stand at the intersection of creativity and technology. Let's build the future, one line of code at a time.",
+    "I am a passionate full-stack web developer based in New York City, wielding the power of React, Node.js, GraphQL, and APIs to transform ideas into reality. With four years of industry experience and the continuous learning journey of a master's student, I blend theoretical knowledge with practical skills to craft seamless, scalable, and engaging web solutions. Dive into my portfolio to explore how I navigate the complexities of web development to deliver projects that stand at the intersection of creativity and technology. Let's build the future, one line of code at a time.",
   og: {
     title: "Deepali Nagwade Portfolio",
     type: "website",
