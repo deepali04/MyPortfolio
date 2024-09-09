@@ -1,9 +1,9 @@
-name: Deploy Portfolio to GitHub Pages
+name: Deploy React App to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Trigger deployment on push to main branch
+      - main
 
 jobs:
   build-and-deploy:
@@ -15,8 +15,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Use the version that matches your project
-
+          node-version: '16'  # Switch to Node 16 to avoid issues
+          
+      - name: Use legacy OpenSSL
+        run: export NODE_OPTIONS=--openssl-legacy-provider
+        
       - name: Install dependencies
         run: npm install
 
@@ -26,4 +29,4 @@ jobs:
       - name: Deploy to GitHub Pages
         run: npm run deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub provides this secret automatically
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
